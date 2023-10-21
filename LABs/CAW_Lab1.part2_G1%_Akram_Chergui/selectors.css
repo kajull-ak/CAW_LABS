@@ -1,0 +1,65 @@
+h2{
+    color: purple;
+}
+body{
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+h2{
+    color: orange; 
+}
+/* the first css gets overriden */
+li{
+    color: blue;
+}
+p{
+    background-color: yellow;
+}
+input{
+    border: 3px solid;
+    border-color: red;
+}
+.hello{
+    background-color: pink;
+}
+#special{
+    border: 2px solid blue;
+}
+div p{
+    font-size: 25px;
+}
+input[type = text]{
+    background-color: grey;
+}
+input[type = checkbox]{
+    margin-left: 50px;
+}
+
+label{
+    text-transform: uppercase;
+}
+div:nth-child(3) p{
+    background-color: pink;
+}
+div:nth-child(3) p:nth-child(2){
+    border: 5px solid;
+    border-color: white;
+}
+div:nth-child(3) em{
+color: white;
+font-size: 20px;
+}
+
+input[type = checkbox] :checked{
+   margin-left: 50px;
+}
+#special ::first-letter{
+    text-transform: capitalize;
+    color: green;
+    font-size: 100px;
+}
+h1:hover{
+    color: red;
+}
