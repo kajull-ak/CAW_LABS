@@ -1,0 +1,19 @@
+{
+  "name": "exo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajull-ak/CAW_LABS.git"
+  },
+  "author": "kajull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajull-ak/CAW_LABS/issues"
+  },
+  "homepage": "https://github.com/kajull-ak/CAW_LABS#readme"
+}
